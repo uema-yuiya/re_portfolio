@@ -1,0 +1,95 @@
+/* 全体の基本設定 */
+body {
+    background-color: #fdfdfd;
+    font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* ヘッダー */
+.site-header {
+    background-color: #6b4f4f; /* カフェっぽいブラウン */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.site-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.site-header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-header nav a:hover {
+    text-decoration: underline;
+}
+
+/* メインビジュアル */
+.hero {
+    background: url("https://picsum.photos/1200/400?coffee") no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* メニュー */
+.menu {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.menu-card h3 {
+    margin-top: 0;
+    color: #6b4f4f;
+}
+
+/* フッター */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
